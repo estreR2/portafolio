@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estrella</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Estrella Ramírez</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
 
-    <!--- Cabecera de mi página -->
+    <!--- Cabecera -->
     <header>
         <nav class="navbar fixed-top navbar-expand-md bg-black" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">Estrella</a>
+                <a class="navbar-brand text-white fw-bold" href="#">⭐ Estrella</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#habilidades">Habilidades</a>
@@ -46,74 +44,74 @@
         </nav>
     </header>
 
-    <main class="pb-3">
+    <main class="pb-3 mt-5">
 
-        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
+        <!-- Sección de Presentación -->
+        <section id="presentacion" class="container-fluid bg-dark text-light py-5">
             <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
                 <div class="row flex-lg-row align-items-center g-5 py-5">
                     <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Estrella Ramirez</h1>
-                        <p class="lead">Soy técnico en mecatrónica</p>
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Estrella Ramírez</h1>
+                        <p class="lead">Soy técnico en mecatrónica con pasión por el desarrollo web y la automatización.</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-                            <button type="button"
-                                class="btn btn-outline-secondary btn-lg px-4">ramirezestrella2006@gmail.com</button>
+                            <a href="#contacto" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</a>
+                            <a href="mailto:ramirezestrella2006@gmail.com" class="btn btn-outline-light btn-lg px-4">
+                                📧 ramirezestrella2006@gmail.com
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                            width="700" height="500" loading="lazy">
+                        <img src="https://via.placeholder.com/700x500" class="d-block mx-lg-auto img-fluid rounded-4 shadow" alt="Estrella Ramírez" width="700" height="500" loading="lazy">
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Sección de Habilidades -->
         <section id="habilidades" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-chevron-bar-expand"></i>
+                <div class="col">
+                    <div class="feature d-flex flex-column align-items-center text-center">
+                        <div class="icon-square bg-primary text-light fs-1 rounded-4 mb-3">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis my-2">Desarrollo Web</h3>
+                        <p>Amplio conocimiento en HTML, CSS, y Python para crear aplicaciones web eficientes y atractivas.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
-                    <p>Conocimiento de HTML, CSS y Python</p>
                 </div>
-
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-people"></i>
+                <div class="col">
+                    <div class="feature d-flex flex-column align-items-center text-center">
+                        <div class="icon-square bg-primary text-light fs-1 rounded-4 mb-3">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis my-2">Trabajo en Equipo</h3>
+                        <p>Habilidades excepcionales de comunicación, colaboración y resolución de problemas en grupo.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
-                    <p>Poseo habilidades excepcionales de trabajo en equipo: comunicación clara, empatía, y resolución
-                        de conflictos. Soy proactivo, apoyo a mis compañeros y valoro sus aportaciones. Mi organización
-                        y adaptabilidad aseguran la eficiencia y el cumplimiento de objetivos, contribuyendo
-                        positivamente a un ambiente colaborativo y exitoso.</p>
                 </div>
-
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-clipboard2-check-fill"></i>
+                <div class="col">
+                    <div class="feature d-flex flex-column align-items-center text-center">
+                        <div class="icon-square bg-primary text-light fs-1 rounded-4 mb-3">
+                            <i class="bi bi-check2-circle"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
+                        <p>Comprometida con la eficiencia y el cumplimiento de objetivos, garantizando resultados de alta calidad.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
-                    <p>Mi compromiso asegura la eficiencia y el logro de los objetivos que me propongo.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Sección de Proyectos -->
         <section id="proyectos" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="#" target="_blank" class="ps-3">URL</a>
+                                <li class="me-auto">
+                                    <a href="#" class="text-white fw-bold">🔗 Ver Proyecto</a>
                                 </li>
                             </ul>
                         </div>
@@ -121,13 +119,12 @@
                 </div>
 
                 <div class="col">
-                    <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi página</h3>
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi Página</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="#" target="_blank" class="ps-3">URL</a>
+                                <li class="me-auto">
+                                    <a href="#" class="text-white fw-bold">🔗 Ver Proyecto</a>
                                 </li>
                             </ul>
                         </div>
@@ -136,40 +133,40 @@
             </div>
         </section>
 
-        <section id="testimonios">
+        <!-- Sección de Testimonios -->
+        <section id="testimonios" class="py-5 bg-light">
             <h1 class="text-center my-5">Testimonios</h1>
-            <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" data-bs-theme="dark"
-                data-bs-ride="carousel">
+            <div id="carouselTestimonios" class="carousel slide carousel-dark" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img class="rounded-5" src="assets/placeholder.jpg" height="200" alt="Testimonio">
-                            <h3 class="my-3">Silvia Gonzalez</h3>
-                            <p>"Estrella es una estudiante apasionada."</p>
+                            <img class="rounded-circle mb-4" src="https://via.placeholder.com/200" alt="Silvia Gonzalez" width="200">
+                            <h3 class="my-3">Silvia González</h3>
+                            <p>"Estrella es una estudiante apasionada y siempre está dispuesta a aprender más."</p>
                         </article>
                     </div>
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img class="rounded-5" src="assets/placeholder.jpg" height="200" alt="Testimonio">
-                            <h3 class="my-3">Felix Cabello</h3>
-                            <p>"Estrella es una estudiante responsable."</p>
+                            <img class="rounded-circle mb-4" src="https://via.placeholder.com/200" alt="Félix Cabello" width="200">
+                            <h3 class="my-3">Félix Cabello</h3>
+                            <p>"Estrella demuestra un gran nivel de responsabilidad y compromiso en cada tarea."</p>
                         </article>
                     </div>
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img class="rounded-5" src="assets/placeholder.jpg" height="200" alt="Testimonio">
+                            <img class="rounded-circle mb-4" src="https://via.placeholder.com/200" alt="Amadeo Flores" width="200">
                             <h3 class="my-3">Amadeo Flores</h3>
-                            <p>"Estrella es una estudiante muy comprometida."</p>
+                            <p>"Su dedicación y esfuerzo son inigualables. Estrella es una profesional en crecimiento."</p>
                         </article>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
@@ -178,33 +175,33 @@
 
     </main>
 
-    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item fs-1">
-                <a href="#" class="nav-link px-5 text-body-secondary">
-                    <i class="bi bi-github text-white"></i>
-                </a>
-            </li>
-            <li class="nav-item fs-1">
-                <a href="#" class="nav-link px-5 text-body-secondary">
-                    <i class="bi bi-linkedin text-white"></i>
-                </a>
-            </li>
-            <li class="nav-item fs-1">
-                <a href="#" class="nav-link px-5 text-body-secondary">
-                    <i class="bi bi-instagram text-white"></i>
-                </a>
-            </li>
-            <li class="nav-item fs-1">
-                <a href="#" class="nav-link px-5 text-body-secondary">
-                    <i class="bi bi-tiktok text-white"></i>
-                </a>
-            </li>
-        </ul>
-        <p class="text-center text-white">© 2024 Estrella, All rights reserved.</p>
+    <footer id="contacto" class="bg-black py-3 text-light">
+        <div class="container">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-5 text-light fs-2">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-5 text-light fs-2">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-5 text-light fs-2">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-5 text-light fs-2">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-center mb-0">© 2024 Estrella Ramírez, Todos los derechos reservados.</p>
+        </div>
     </footer>
-
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
